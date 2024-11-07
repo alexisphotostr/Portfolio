@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+
+    <title>Portfolio Alexis FAUPIN</title>
+    <!-- importation de bootsrap -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    
+    <!-- importation du css -->
+
+    <link rel="stylesheet" type="text/css" href="../css/styles.css" />
+
+  </head>
+  <body>
+
+    <div class="video-background">
+      <video autoplay muted loop id="bg-video">
+          <source src="../assets/img/y2mate.com - Free fullHD video effect pack dust particles cinematic texture and color footage 07_1080.mp4" type="video/mp4">
+      </video>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item  nav-item-spaced"> <!-- Custom class -->
+            <a class="nav-link" href="../index.html">Home</a>
+          </li>
+          <li class="nav-item  nav-item-spaced"> <!-- Custom class -->
+            <a class="nav-link" href="../html/cv.html">Resume</a>
+          </li>
+          <li class="nav-item  nav-item-spaced"> <!-- Custom class -->
+            <a class="nav-link" href="../html/projets.html">Projects</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    
+    <div class="title-main" style="height: 80vh;">
+      <div class="d-flex justify-content-center align-items-center h-100">
+          <div class="text-center">
+              <p style="font-size: 2vh;">Alexis FAUPIN<br></p>
+              <h1 style="font-size: 10vh;">Projects</h1>
+              
+          </div>
+      </div>
+      
+    </div>
+      <div class="container">
+        <div class="row justify-content-center">
+            <div class="text-center">
+                <img src="../assets/img/arrow-down-svgrepo-com.svg" onclick="scrollToStart()" href="#start" class="custom-svg" alt="Arrow Down">
+            </div>
+        </div>
+      </div>
+
+
+    <section class="start-section text-center" id="start" style=" margin-bottom: 20vh;">
+      <br><br><br><br>
+      <div class="row align-items-center" style="background: rgba(255, 255, 255, 0.2); backdrop-filter: blur(10px); padding: 10vh; border-radius: 5vh; margin-right: 5vh; margin-left: 5vh;">
+        
+        <div class="col-md-6">
+          <div class="d-flex flex-column align-items-center mt-3 fs-3">
+
+            <div class="container" style="width: 200vh; height: auto;  background: rgba(255, 255, 255, 0.2); backdrop-filter: blur(10px); padding: 10vh;  border-radius: 1em; margin-top: 10vh; margin-left: 10vh;">
+              <div class="row align-items-center">
+                <h2 class="text-decoration-underline text-center" style="background-color: whitesmoke; color: black; border-radius: 5vh; margin-bottom: 10vh; margin-left: 5vh;">Hack the box</h2><br>
+
+                <!-- Image Column -->
+                <div class="col-md-7">
+                  <img loading="lazy" src="../assets/img/img4.jpg" class="img-fluid rounded">
+                </div>
+                
+                
+                <!-- Text Column -->
+                <div class="col-md-5 p-3 fs-4" style="color: black; background-color: rgb(70, 113, 0); border-radius: 5vh; ">
+                  <p class="text-justify">Hack The Box (<span class="fw-bold">HTB</span>) is an online platform that offers <span class="fw-bold">virtual labs</span> for practicing <span class="fw-bold">cybersecurity</span> and <span class="fw-bold">penetration testing</span> skills. It provides a range of <span class="fw-bold">real-world challenges</span>, from <span class="fw-bold">beginner</span> to <span class="fw-bold">expert</span>, where users can test their <span class="fw-bold">hacking abilities</span> in a safe and legal environment. HTB includes <span class="fw-bold">vulnerable machines</span> and challenges that simulate <span class="fw-bold">security weaknesses</span>, helping users to improve their <span class="fw-bold">problem-solving</span> and <span class="fw-bold">ethical hacking skills</span>.</p>
+                </div>
+                
+              </div>
+              
+            </div>
+            <div class="container" style="width: 200vh; height: auto; position: relative; background: rgba(255, 255, 255, 0.2); backdrop-filter: blur(10px); padding: 10vh;  border-radius: 1em; margin-top: 10vh;  margin-left: 10vh;">
+              <div class="row align-items-center">
+                <h2 class="text-decoration-underline text-center" style="background-color: whitesmoke; color: black; border-radius: 5vh; margin-bottom: 5vh;"><span class="fw-bold">SealTalk</span>: my personnal project</h2><br>
+
+                <!-- Image Column -->
+                <div class="col-md-5">
+                  <img loading="lazy" src="../assets/img/LOGO WITH TXT.png" class="img-fluid rounded">
+                </div>
+                
+                
+                <!-- Text Column -->
+                <div class="col-md-6 p-3 fs-4" style="color: black; background-color: rgb(179, 207, 239); border-radius: 5vh; margin-left: 5vh;">
+                  <p class="text-justify">I recently got hold of a broken <span class="fw-bold">laptop</span>, took it apart, and repaired it. I installed <span class="fw-bold">Debian</span> on it and set it up as a <span class="fw-bold">server</span>. So far, I've only configured <span class="fw-bold">SSH</span>, but I plan to turn it into a <span class="fw-bold">web server</span>. I've developed an instant messaging app called <span class="fw-bold">SealTalk</span> using <span class="fw-bold">Node.js</span> for the backend and <span class="fw-bold">React.js</span> for the frontend, and I'd like to host it on this server.</p>
+                </div>
+              </div>
+            <br>
+
+           
+      </div>
+    </section>
+
+    <footer class="bg-dark text-white text-center py-3 mt-auto" >
+      <div class="container" >
+        <p class="mb-0">&copy; 2024 Alexis FAUPIN.</p>
+        <small>Made with ❤️</small>
+        
+      </div>
+    </footer>
+    <script src="../js/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    
+  </body>
+</html>

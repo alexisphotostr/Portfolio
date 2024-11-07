@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+
+    <title>Portfolio Alexis FAUPIN</title>
+    <!-- importation de bootsrap -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    
+    <!-- importation du css -->
+
+    <link rel="stylesheet" type="text/css" href="../portfolio 3/css/styles.css" />
+
+  </head>
+  <body>
+
+    <div class="video-background">
+      <video autoplay muted loop id="bg-video">
+          <source src="../portfolio 3/assets/img/y2mate.com - Cool black Background_1080.mp4" type="video/mp4">
+      </video>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item  nav-item-spaced"> <!-- Custom class -->
+            <a class="nav-link" href="../portfolio 3/index.html">Home</a>
+          </li>
+          <li class="nav-item  nav-item-spaced"> <!-- Custom class -->
+            <a class="nav-link" href="../portfolio 3/html/cv.html">Resume</a>
+          </li>
+          <li class="nav-item  nav-item-spaced"> <!-- Custom class -->
+            <a class="nav-link" href="../portfolio 3/html/projets.html">Projects</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    
+    <div class="title-main" style="height: 80vh;">
+      <div class="d-flex justify-content-center align-items-center h-100">
+          <div class="text-center">
+              <p style="font-size: 2vh;">Welcome to my portfolio<br></p>
+              <h1 style="font-size: 10vh;">Alexis FAUPIN</h1>
+          </div>
+      </div>
+    </div>
+      <div class="container">
+        <div class="row justify-content-center">
+            <div class="text-center">
+                <img src="../portfolio 3/assets/img/arrow-down-svgrepo-com.svg" onclick="scrollToStart()" href="#start" class="custom-svg" alt="Arrow Down">
+            </div>
+        </div>
+      </div>
+
+
+    <section class="start-section text-center" id="start" style=" margin-bottom: 20vh;">
+      <br><br><br><br>
+      <h1 class="text-center "  style="position: relative; color: whitesmoke; text-decoration: underline; font-weight: bold; font-size: 5vh;">Who am I ?</h1>
+      <p class="text-center fs-5 p-5" style="color: whitesmoke; background: rgba(255, 255, 255, 0.2); margin-top: 10vh;">I am a student at ESGI at Lyon in France. <br>I am interrested in cybersecurity and network engineering, turning my passion for technology into expertise. <br>Curious and driven, I want to specialize into  security system to help create a safer digital world.</p>
+      
+      <img src="../portfolio 3/assets/img/ESGI_logo_web_blanc.jpg" class="esgi-logo-img" class="img-fluid">
+
+      <div class="container" style="width: 200vh; height: auto; position: relative; background: rgba(255, 255, 255, 0.2); backdrop-filter: blur(10px); padding: 10vh; height: 60vh; border-radius: 1em; margin-top: 20vh">
+        <div class="row align-items-center" style="position: relative;">
+          <!-- Image Column -->
+          <div class="col-md-7">
+            <img loading="lazy" src="./assets/img/img1.jpg" class="img-fluid rounded">
+          </div>
+          
+          <!-- Text Column -->
+          <div class="col-md-5" style=" border-radius: 5vh; color: whitesmoke;">
+            <h2 class="text-decoration-underline">My daly use of Linux</h2><br>
+            <p>I daly use <span class="fw-bold text-justify">Kali Linux</span>, a Debian-based distribution designed for <span class="fw-bold">penetration testing and ethical hacking</span>.<br><br> Developed by Offensive Security, it includes a wide array of pre-installed tools for tasks like vulnerability assessment, network analysis, and exploitation, making it a popular choice among cybersecurity professionals. <br><br>Kali Linux offers a customizable environment and regular updates, and it can be run as a live USB, in virtual machines, or on various platforms, including ARM and cloud environments.</p>
+          </div>
+        </div>
+      </div>
+     
+      <div class="container" style="position: relative; width: 200vh; height: auto; position: relative; background: rgba(255, 255, 255, 0.2); backdrop-filter: blur(10px); padding: 10vh; height: 60vh; border-radius: 1em; margin-top: 20vh">
+        <div class="row align-items-center">
+           <!-- Text Column -->
+           <div class="col-md-5" style="color: whitesmoke;">
+            <h2 class="text-decoration-underline">Linux Tools i use</h2><br>
+            <p>
+              Linux provides essential tools for cybersecurity, like <span class="fw-bold">Metasploit</span> for exploiting vulnerabilities, <span class="fw-bold">Aircrack-ng</span> for testing Wi-Fi security, <span class="fw-bold">Burp Suite</span> for analyzing web application threats, and <span class="fw-bold">Wireshark</span> for monitoring network traffic. These tools are crucial for penetration testing and network defense.
+          </p>
+          
+          </div>
+          
+          <!-- Image Column -->
+          <div class="col-md-7">
+            <img loading="lazy" src="./assets/img/img3.jpg" class="img-fluid rounded">
+          </div>
+          
+         
+        </div>
+
+      
+      
+        <br> <br> <br> <br> <br>
+        <div class="container text-center mt-5">
+          <a href="../portfolio 3/html/cv.html" class="btn btn-primary btn-lg fs-3" style="margin-top: 5vh; background-color: rgb(68, 148, 233);">Go to my resume</a>
+        </div>
+
+    </section>
+    <footer class="bg-dark text-white text-center py-3 mt-auto" style="margin-top: 30vh;">
+      <div class="container" >
+        <p class="mb-0">&copy; 2024 Alexis FAUPIN.</p>
+        <small>Made with ❤️</small>
+        
+      </div>
+    </footer>
+    <script src="../portfolio 3/js/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    
+  </body>
+</html>
